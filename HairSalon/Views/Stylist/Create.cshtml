@@ -2,9 +2,10 @@
 
 @using (Html.BeginForm())
 {
+
   @Html.LabelFor(model => model.Name)
   @Html.TextBoxFor(model => model.Name)
   <input type="submit" value="Add Stylist" class="btn btn-primary">
 }
 
-<p>@Html.ActionLink("back to stylists", "Index")</p>
+<p>@Html.ActionLink("back to Stylists", "Index")</p>
