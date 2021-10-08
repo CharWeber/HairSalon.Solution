@@ -1,22 +1,17 @@
-#bodyBg{
+body{
   background: url("../img/main_BG.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#footer {
-  text-align:center;
-  position:fixed;
-  bottom:0px;
-  left:0px;
-  background-color:hsl(0, 63%, 69%);
-  color:White;
-  padding:15px;
-  width:100%;
-}
-.container{
-  padding-top:1em;
-  margin-top: 100px;
-  text-align:Center;
-}
+
+div#footer{
+    text-align:center;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color:hsl(15, 60%, 56%);
+    padding:15px;
+    width:100%;
+} 
