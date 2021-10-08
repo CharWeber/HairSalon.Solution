@@ -1,7 +1,7 @@
 using HairSalon.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Renderings;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,7 +11,7 @@ namespace HairSalon.Controllers
   {
     private readonly HairSalonContext _db;
 
-    public StylistController(DbContext db)
+    public StylistController(HairSalonContext db)
     {
       _db = db;
     }
@@ -23,7 +23,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Create()
     {
-      Return View();
+      return View();
     }
 
     [HttpPost]
