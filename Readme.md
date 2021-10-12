@@ -84,8 +84,7 @@ for this application to run you must add a file to the HairSalon directory
 
 ## Known Bugs
 
-* _This is littered with bugs._
-* the css styling is not linking correctly, the footer is picking up styling from previous projects.
+* the css styling is not linking correctly, the footer is picking up styling from previous projects. **SOLVED** if the css styling isn't loading correctly try hard refreshing the page (refresh with clear cache)
 * when trying to run you may run into an issue (CS7002) where it will ignore your main entry point in Program.cs
 
 ## License
@@ -96,3 +95,6 @@ If you run into issues or bugs with this web application, please contact one of 
 ## Contact Information
 
 _charlestweber@gmal.com_
+
+Photo by <a href="https://unsplash.com/@janpictures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JAN Pictures</a> on <a href="https://unsplash.com/@janpictures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

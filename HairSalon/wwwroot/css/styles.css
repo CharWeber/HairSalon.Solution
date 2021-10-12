@@ -6,12 +6,36 @@ body{
   background-size: cover;
 }
 
+
+.container{
+  background-color: rgba(37, 36, 33, 0.807);
+  text-align: right;
+  margin-top:5%;
+  margin-left: 50%;
+  min-height: 40vh;
+  overflow: hidden;
+  filter: drop-shadow(30px 20px 4px rgba(37, 37, 36, 0.861));
+  border-radius:25px;
+  width:40%;
+  }
+
+  .card{
+    background-color:rgba(37, 36, 33, 0.491);
+    color: white;
+    padding:5%;
+    margin:5%;
+  }
+
+ul{
+  list-style-type: none;
+}
+
 div#footer{
     text-align:center;
     position:fixed;
     bottom:0px;
     left:0px;
-    background-color:hsl(15, 60%, 56%);
+    background-color:hsla(15, 15%, 21%, 0.724);
     padding:15px;
     width:100%;
 } 
